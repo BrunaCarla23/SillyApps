@@ -14,6 +14,14 @@
 		434EEE8B220B333700B8BF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434EEE89220B333700B8BF6B /* LaunchScreen.storyboard */; };
 		434EEE96220B333700B8BF6B /* SillyAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EEE95220B333700B8BF6B /* SillyAppsTests.swift */; };
 		434EEEA1220B333700B8BF6B /* SillyAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EEEA0220B333700B8BF6B /* SillyAppsUITests.swift */; };
+		434EEEAF220B349C00B8BF6B /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEAE220B349C00B8BF6B /* images.png */; };
+		434EEEB5220B568C00B8BF6B /* SillyBrushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EEEB4220B568C00B8BF6B /* SillyBrushViewController.swift */; };
+		434EEEB9220B584800B8BF6B /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEB6220B584700B8BF6B /* reset.png */; };
+		434EEEBA220B584800B8BF6B /* eraser_1320087.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEB7220B584700B8BF6B /* eraser_1320087.png */; };
+		434EEEBB220B584800B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEB8220B584700B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png */; };
+		434EEEBD220B5BE800B8BF6B /* SillyCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EEEBC220B5BE800B8BF6B /* SillyCalcViewController.swift */; };
+		434EEEBF220B5C2600B8BF6B /* calculator-logo-png-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEBE220B5C2600B8BF6B /* calculator-logo-png-7.png */; };
+		434EEEC2220B5CD600B8BF6B /* investment-calculator356x356.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEC1220B5CD500B8BF6B /* investment-calculator356x356.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		434EEE9C220B333700B8BF6B /* SillyAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillyAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		434EEEA0220B333700B8BF6B /* SillyAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyAppsUITests.swift; sourceTree = "<group>"; };
 		434EEEA2220B333700B8BF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434EEEAE220B349C00B8BF6B /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		434EEEB4220B568C00B8BF6B /* SillyBrushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyBrushViewController.swift; sourceTree = "<group>"; };
+		434EEEB6220B584700B8BF6B /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		434EEEB7220B584700B8BF6B /* eraser_1320087.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser_1320087.png; sourceTree = "<group>"; };
+		434EEEB8220B584700B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-02-02 at 12.04.58.png"; sourceTree = "<group>"; };
+		434EEEBC220B5BE800B8BF6B /* SillyCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyCalcViewController.swift; sourceTree = "<group>"; };
+		434EEEBE220B5C2600B8BF6B /* calculator-logo-png-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-logo-png-7.png"; sourceTree = "<group>"; };
+		434EEEC1220B5CD500B8BF6B /* investment-calculator356x356.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "investment-calculator356x356.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				434EEE80220B333600B8BF6B /* AppDelegate.swift */,
-				434EEE82220B333600B8BF6B /* ViewController.swift */,
 				434EEE84220B333600B8BF6B /* Main.storyboard */,
 				434EEE87220B333700B8BF6B /* Assets.xcassets */,
+				434EEEB0220B509A00B8BF6B /* icons */,
 				434EEE89220B333700B8BF6B /* LaunchScreen.storyboard */,
 				434EEE8C220B333700B8BF6B /* Info.plist */,
+				434EEEC3220B6D1800B8BF6B /* Controllers */,
 			);
 			path = SillyApps;
 			sourceTree = "<group>";
@@ -123,6 +140,45 @@
 				434EEEA2220B333700B8BF6B /* Info.plist */,
 			);
 			path = SillyAppsUITests;
+			sourceTree = "<group>";
+		};
+		434EEEB0220B509A00B8BF6B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				434EEEC0220B5C2F00B8BF6B /* SillyCalc */,
+				434EEEB1220B50B400B8BF6B /* SillyBrushh */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		434EEEB1220B50B400B8BF6B /* SillyBrushh */ = {
+			isa = PBXGroup;
+			children = (
+				434EEEB7220B584700B8BF6B /* eraser_1320087.png */,
+				434EEEB6220B584700B8BF6B /* reset.png */,
+				434EEEB8220B584700B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png */,
+				434EEEAE220B349C00B8BF6B /* images.png */,
+			);
+			path = SillyBrushh;
+			sourceTree = "<group>";
+		};
+		434EEEC0220B5C2F00B8BF6B /* SillyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				434EEEC1220B5CD500B8BF6B /* investment-calculator356x356.png */,
+				434EEEBE220B5C2600B8BF6B /* calculator-logo-png-7.png */,
+			);
+			path = SillyCalc;
+			sourceTree = "<group>";
+		};
+		434EEEC3220B6D1800B8BF6B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				434EEE82220B333600B8BF6B /* ViewController.swift */,
+				434EEEB4220B568C00B8BF6B /* SillyBrushViewController.swift */,
+				434EEEBC220B5BE800B8BF6B /* SillyCalcViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				434EEE8B220B333700B8BF6B /* LaunchScreen.storyboard in Resources */,
+				434EEEBB220B584800B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png in Resources */,
+				434EEEBF220B5C2600B8BF6B /* calculator-logo-png-7.png in Resources */,
+				434EEEB9220B584800B8BF6B /* reset.png in Resources */,
 				434EEE88220B333700B8BF6B /* Assets.xcassets in Resources */,
+				434EEEBA220B584800B8BF6B /* eraser_1320087.png in Resources */,
 				434EEE86220B333600B8BF6B /* Main.storyboard in Resources */,
+				434EEEAF220B349C00B8BF6B /* images.png in Resources */,
+				434EEEC2220B5CD600B8BF6B /* investment-calculator356x356.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +320,8 @@
 			files = (
 				434EEE83220B333600B8BF6B /* ViewController.swift in Sources */,
 				434EEE81220B333600B8BF6B /* AppDelegate.swift in Sources */,
+				434EEEB5220B568C00B8BF6B /* SillyBrushViewController.swift in Sources */,
+				434EEEBD220B5BE800B8BF6B /* SillyCalcViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N2ZC4KDML9;
+				DEVELOPMENT_TEAM = J89TN7BQWM;
 				INFOPLIST_FILE = SillyApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N2ZC4KDML9;
+				DEVELOPMENT_TEAM = J89TN7BQWM;
 				INFOPLIST_FILE = SillyApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
