@@ -22,6 +22,8 @@
 		434EEEBD220B5BE800B8BF6B /* SillyCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EEEBC220B5BE800B8BF6B /* SillyCalcViewController.swift */; };
 		434EEEBF220B5C2600B8BF6B /* calculator-logo-png-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEBE220B5C2600B8BF6B /* calculator-logo-png-7.png */; };
 		434EEEC2220B5CD600B8BF6B /* investment-calculator356x356.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEC1220B5CD500B8BF6B /* investment-calculator356x356.png */; };
+		434EEEC6220B781B00B8BF6B /* workout.png in Resources */ = {isa = PBXBuildFile; fileRef = 434EEEC5220B781B00B8BF6B /* workout.png */; };
+		434EEEC8220B788E00B8BF6B /* SillyWorkoutTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EEEC7220B788E00B8BF6B /* SillyWorkoutTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		434EEEBC220B5BE800B8BF6B /* SillyCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyCalcViewController.swift; sourceTree = "<group>"; };
 		434EEEBE220B5C2600B8BF6B /* calculator-logo-png-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-logo-png-7.png"; sourceTree = "<group>"; };
 		434EEEC1220B5CD500B8BF6B /* investment-calculator356x356.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "investment-calculator356x356.png"; sourceTree = "<group>"; };
+		434EEEC5220B781B00B8BF6B /* workout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout.png; sourceTree = "<group>"; };
+		434EEEC7220B788E00B8BF6B /* SillyWorkoutTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyWorkoutTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 		434EEEB0220B509A00B8BF6B /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				434EEEC4220B77E500B8BF6B /* SillyWorkoutTimer */,
 				434EEEC0220B5C2F00B8BF6B /* SillyCalc */,
 				434EEEB1220B50B400B8BF6B /* SillyBrushh */,
 			);
@@ -177,8 +182,17 @@
 				434EEE82220B333600B8BF6B /* ViewController.swift */,
 				434EEEB4220B568C00B8BF6B /* SillyBrushViewController.swift */,
 				434EEEBC220B5BE800B8BF6B /* SillyCalcViewController.swift */,
+				434EEEC7220B788E00B8BF6B /* SillyWorkoutTimerViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		434EEEC4220B77E500B8BF6B /* SillyWorkoutTimer */ = {
+			isa = PBXGroup;
+			children = (
+				434EEEC5220B781B00B8BF6B /* workout.png */,
+			);
+			path = SillyWorkoutTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +305,7 @@
 				434EEEB9220B584800B8BF6B /* reset.png in Resources */,
 				434EEE88220B333700B8BF6B /* Assets.xcassets in Resources */,
 				434EEEBA220B584800B8BF6B /* eraser_1320087.png in Resources */,
+				434EEEC6220B781B00B8BF6B /* workout.png in Resources */,
 				434EEE86220B333600B8BF6B /* Main.storyboard in Resources */,
 				434EEEAF220B349C00B8BF6B /* images.png in Resources */,
 				434EEEC2220B5CD600B8BF6B /* investment-calculator356x356.png in Resources */,
@@ -322,6 +337,7 @@
 				434EEE81220B333600B8BF6B /* AppDelegate.swift in Sources */,
 				434EEEB5220B568C00B8BF6B /* SillyBrushViewController.swift in Sources */,
 				434EEEBD220B5BE800B8BF6B /* SillyCalcViewController.swift in Sources */,
+				434EEEC8220B788E00B8BF6B /* SillyWorkoutTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
