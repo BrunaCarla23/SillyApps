@@ -1,18 +1,18 @@
 //
-//  SillyWorkoutTimerViewController.swift
+//  DetailsViewController.swift
 //  SillyApps
 //
-//  Created by sinahk on 2/6/19.
+//  Created by sinahk on 2/8/19.
 //  Copyright © 2019 sinakhodadad. All rights reserved.
 //
 
 import UIKit
 
-class SillyWorkoutTimerViewController: UIViewController {
+class DetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+
         // Do any additional setup after loading the view.
     }
     
