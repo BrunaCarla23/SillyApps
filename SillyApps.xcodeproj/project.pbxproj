@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43307EAB220ECD580067DF09 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43307EA9220ECD580067DF09 /* red.jpg */; };
+		43307EAC220ECD580067DF09 /* Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43307EAA220ECD580067DF09 /* Black.jpg */; };
+		43345693220F210E006F34D1 /* quiz-logo_2728-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43345692220F210E006F34D1 /* quiz-logo_2728-12.jpg */; };
+		43345697220F2160006F34D1 /* SillyQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43345696220F2160006F34D1 /* SillyQuizViewController.swift */; };
+		43345699220F2DF6006F34D1 /* quiz_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 43345698220F2DF6006F34D1 /* quiz_back.png */; };
 		433513E4220C73CC0097D8CF /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433513E3220C73CC0097D8CF /* Exercise.swift */; };
 		433513E7220C75230097D8CF /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433513E6220C75220097D8CF /* ExerciseData.swift */; };
 		43388FF4220D5BC90018A0FE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43388FF3220D5BC90018A0FE /* DetailsViewController.swift */; };
@@ -50,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43307EA9220ECD580067DF09 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
+		43307EAA220ECD580067DF09 /* Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Black.jpg; sourceTree = "<group>"; };
+		43345692220F210E006F34D1 /* quiz-logo_2728-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "quiz-logo_2728-12.jpg"; sourceTree = "<group>"; };
+		43345696220F2160006F34D1 /* SillyQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillyQuizViewController.swift; sourceTree = "<group>"; };
+		43345698220F2DF6006F34D1 /* quiz_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_back.png; sourceTree = "<group>"; };
 		433513E3220C73CC0097D8CF /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		433513E6220C75220097D8CF /* ExerciseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
 		43388FF3220D5BC90018A0FE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4334568F220F202B006F34D1 /* 5. SillyQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				43345698220F2DF6006F34D1 /* quiz_back.png */,
+				43345692220F210E006F34D1 /* quiz-logo_2728-12.jpg */,
+			);
+			path = "5. SillyQuiz";
+			sourceTree = "<group>";
+		};
+		43345695220F213D006F34D1 /* SillyQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				43345696220F2160006F34D1 /* SillyQuizViewController.swift */,
+			);
+			name = SillyQuiz;
+			sourceTree = "<group>";
+		};
 		433513E5220C74F70097D8CF /* SillyWorkoutTimer */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,12 +153,12 @@
 			name = SillyTimer;
 			sourceTree = "<group>";
 		};
-		43388FFC220D5CDE0018A0FE /* SillyTimer */ = {
+		43388FFC220D5CDE0018A0FE /* 4. SillyTimer */ = {
 			isa = PBXGroup;
 			children = (
 				43388FFA220D5CD50018A0FE /* TimerLogo.jpg */,
 			);
-			path = SillyTimer;
+			path = "4. SillyTimer";
 			sourceTree = "<group>";
 		};
 		434EEE74220B333600B8BF6B = {
@@ -189,15 +216,16 @@
 		434EEEB0220B509A00B8BF6B /* icons */ = {
 			isa = PBXGroup;
 			children = (
-				43388FFC220D5CDE0018A0FE /* SillyTimer */,
-				434EEEC4220B77E500B8BF6B /* SillyWorkoutTimer */,
-				434EEEC0220B5C2F00B8BF6B /* SillyCalc */,
-				434EEEB1220B50B400B8BF6B /* SillyBrushh */,
+				4334568F220F202B006F34D1 /* 5. SillyQuiz */,
+				43388FFC220D5CDE0018A0FE /* 4. SillyTimer */,
+				434EEEC4220B77E500B8BF6B /* 3. SillyWorkoutTimer */,
+				434EEEC0220B5C2F00B8BF6B /* 2. SillyCalc */,
+				434EEEB1220B50B400B8BF6B /* 1. SillyBrushh */,
 			);
 			path = icons;
 			sourceTree = "<group>";
 		};
-		434EEEB1220B50B400B8BF6B /* SillyBrushh */ = {
+		434EEEB1220B50B400B8BF6B /* 1. SillyBrushh */ = {
 			isa = PBXGroup;
 			children = (
 				434EEEB7220B584700B8BF6B /* eraser_1320087.png */,
@@ -205,21 +233,22 @@
 				434EEEB8220B584700B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png */,
 				434EEEAE220B349C00B8BF6B /* images.png */,
 			);
-			path = SillyBrushh;
+			path = "1. SillyBrushh";
 			sourceTree = "<group>";
 		};
-		434EEEC0220B5C2F00B8BF6B /* SillyCalc */ = {
+		434EEEC0220B5C2F00B8BF6B /* 2. SillyCalc */ = {
 			isa = PBXGroup;
 			children = (
 				434EEEC1220B5CD500B8BF6B /* investment-calculator356x356.png */,
 				434EEEBE220B5C2600B8BF6B /* calculator-logo-png-7.png */,
 			);
-			path = SillyCalc;
+			path = "2. SillyCalc";
 			sourceTree = "<group>";
 		};
 		434EEEC3220B6D1800B8BF6B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				43345695220F213D006F34D1 /* SillyQuiz */,
 				43388FF5220D5C5B0018A0FE /* SillyTimer */,
 				434EEE82220B333600B8BF6B /* ViewController.swift */,
 				434EEEB4220B568C00B8BF6B /* SillyBrushViewController.swift */,
@@ -229,12 +258,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		434EEEC4220B77E500B8BF6B /* SillyWorkoutTimer */ = {
+		434EEEC4220B77E500B8BF6B /* 3. SillyWorkoutTimer */ = {
 			isa = PBXGroup;
 			children = (
+				43307EAA220ECD580067DF09 /* Black.jpg */,
+				43307EA9220ECD580067DF09 /* red.jpg */,
 				434EEEC5220B781B00B8BF6B /* workout.png */,
 			);
-			path = SillyWorkoutTimer;
+			path = "3. SillyWorkoutTimer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,10 +375,14 @@
 				43388FFB220D5CD50018A0FE /* TimerLogo.jpg in Resources */,
 				434EEE8B220B333700B8BF6B /* LaunchScreen.storyboard in Resources */,
 				434EEEBB220B584800B8BF6B /* Screen Shot 2019-02-02 at 12.04.58.png in Resources */,
+				43307EAB220ECD580067DF09 /* red.jpg in Resources */,
 				434EEEBF220B5C2600B8BF6B /* calculator-logo-png-7.png in Resources */,
+				43345693220F210E006F34D1 /* quiz-logo_2728-12.jpg in Resources */,
 				434EEEB9220B584800B8BF6B /* reset.png in Resources */,
 				434EEE88220B333700B8BF6B /* Assets.xcassets in Resources */,
+				43345699220F2DF6006F34D1 /* quiz_back.png in Resources */,
 				434EEEBA220B584800B8BF6B /* eraser_1320087.png in Resources */,
+				43307EAC220ECD580067DF09 /* Black.jpg in Resources */,
 				434EEEC6220B781B00B8BF6B /* workout.png in Resources */,
 				434EEE86220B333600B8BF6B /* Main.storyboard in Resources */,
 				434EEEAF220B349C00B8BF6B /* images.png in Resources */,
@@ -381,6 +416,7 @@
 				434EEEB5220B568C00B8BF6B /* SillyBrushViewController.swift in Sources */,
 				43388FF7220D5C7C0018A0FE /* SillyTimerViewController.swift in Sources */,
 				43388FF4220D5BC90018A0FE /* DetailsViewController.swift in Sources */,
+				43345697220F2160006F34D1 /* SillyQuizViewController.swift in Sources */,
 				433513E7220C75230097D8CF /* ExerciseData.swift in Sources */,
 				43388FF9220D5C910018A0FE /* SillyStopWatchViewController.swift in Sources */,
 				434EEEBD220B5BE800B8BF6B /* SillyCalcViewController.swift in Sources */,
